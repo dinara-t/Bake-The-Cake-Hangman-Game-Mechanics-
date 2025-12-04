@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Bake The Cake – Word Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="script.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+NO:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="game">
+      <header class="game__header">
+        <h1>Bake The Cake</h1>
+        <p class="game__subtitle">Guess the word before the cake burns</p>
+      </header>
+
+      <main class="game__main">
+        <section class="game__visual">
+          <img id="cake-image" src="./assets/h-0.png" alt="Cake baking stage" />
+
+          <p id="wrong-count" class="game__wrong-count">
+            Wrong guesses: 0 / 10
+          </p>
+
+          <p id="temperature" class="game__temperature">
+            Oven temperature: 160°C
+          </p>
+          <div class="thermometer">
+            <div id="thermometer-fill"></div>
+          </div>
+
+          <p id="used-words" class="game__used-words"></p>
+        </section>
+
+        <section class="game__play">
+          <div id="word-display" class="game__word-display"></div>
+          <div id="alphabet" class="game__alphabet"></div>
+          <p id="message" class="game__message"></p>
+          <button id="play-again" class="game__button">
+            Bake Another Cake
+          </button>
+        </section>
+      </main>
+
+      <footer class="game__footer">
+        <p>Tip: You can also use your keyboard to guess letters.</p>
+      </footer>
+    </div>
+  </body>
+</html>
