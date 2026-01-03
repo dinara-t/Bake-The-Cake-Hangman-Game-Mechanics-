@@ -38,3 +38,5 @@ This project was built to practise:
 
 - Cake illustration: custom drawing by me.
 - Fonts loaded via Google Fonts (`Playwrite NO` and `Playfair Display`).
+
+**Live demo:** https://dinara-t.github.io/Bake-The-Cake-Hangman-Game-Mechanics-/
